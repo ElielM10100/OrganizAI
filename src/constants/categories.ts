@@ -1,0 +1,133 @@
+import type { Category } from '../types/finance';
+
+export const DEFAULT_CATEGORIES: Omit<Category, 'id'>[] = [
+  // Categorias de Receita
+  {
+    name: 'Salário',
+    type: 'income',
+    icon: 'cash',
+    color: '#2ecc71',
+    isDefault: true,
+  },
+  {
+    name: 'Freelance',
+    type: 'income',
+    icon: 'briefcase',
+    color: '#27ae60',
+    isDefault: true,
+  },
+  {
+    name: 'Investimentos',
+    type: 'income',
+    icon: 'trending-up',
+    color: '#3498db',
+    isDefault: true,
+  },
+  {
+    name: 'Outros',
+    type: 'income',
+    icon: 'plus-circle',
+    color: '#95a5a6',
+    isDefault: true,
+  },
+
+  // Categorias de Despesa
+  {
+    name: 'Alimentação',
+    type: 'expense',
+    icon: 'food',
+    color: '#e74c3c',
+    isDefault: true,
+  },
+  {
+    name: 'Moradia',
+    type: 'expense',
+    icon: 'home',
+    color: '#9b59b6',
+    isDefault: true,
+  },
+  {
+    name: 'Transporte',
+    type: 'expense',
+    icon: 'car',
+    color: '#f1c40f',
+    isDefault: true,
+  },
+  {
+    name: 'Saúde',
+    type: 'expense',
+    icon: 'medical-bag',
+    color: '#e67e22',
+    isDefault: true,
+  },
+  {
+    name: 'Educação',
+    type: 'expense',
+    icon: 'school',
+    color: '#1abc9c',
+    isDefault: true,
+  },
+  {
+    name: 'Lazer',
+    type: 'expense',
+    icon: 'movie',
+    color: '#3498db',
+    isDefault: true,
+  },
+  {
+    name: 'Compras',
+    type: 'expense',
+    icon: 'shopping',
+    color: '#e84393',
+    isDefault: true,
+  },
+  {
+    name: 'Contas',
+    type: 'expense',
+    icon: 'file-document',
+    color: '#d35400',
+    isDefault: true,
+  },
+  {
+    name: 'Outros',
+    type: 'expense',
+    icon: 'plus-circle',
+    color: '#95a5a6',
+    isDefault: true,
+  },
+];
+
+export const CATEGORY_ICONS = [
+  'cash',
+  'briefcase',
+  'trending-up',
+  'plus-circle',
+  'food',
+  'home',
+  'car',
+  'medical-bag',
+  'school',
+  'movie',
+  'shopping',
+  'file-document',
+  'bank',
+  'credit-card',
+  'gift',
+  'phone',
+  'wifi',
+  'lightbulb',
+  'water',
+  'gas-cylinder',
+  'dumbbell',
+  'paw',
+  'music',
+  'gamepad',
+  'brush',
+  'book',
+  'airplane',
+  'umbrella',
+  'tshirt',
+  'tools',
+] as const;
+
+export type CategoryIcon = typeof CATEGORY_ICONS[number]; 

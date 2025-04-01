@@ -1,0 +1,39 @@
+{
+  "cli": {
+    "version": ">= 3.6.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true,
+        "autoIncrement": true
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "autoIncrement": true
+      },
+      "ios": {
+        "simulator": false,
+        "image": "latest",
+        "autoIncrement": true
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "track": "production"
+      },
+      "ios": {
+        "appleId": "millenniumproducoesdigitais@gmail.com",
+        "ascAppId": "6742514015"
+      }
+    }
+  }
+}
