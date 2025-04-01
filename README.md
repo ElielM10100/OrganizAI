@@ -89,4 +89,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 Seu Nome - [@seu-twitter](https://twitter.com/seu-twitter) - email@exemplo.com
 
-Link do Projeto: [https://github.com/seu-usuario/finance-app](https://github.com/seu-usuario/finance-app) 
+Link do Projeto: https://github.com/ElielM10100/OrganizAI.git
