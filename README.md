@@ -25,7 +25,7 @@ Um aplicativo móvel moderno para gerenciamento de finanças pessoais, desenvolv
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/finance-app.git
+git clone https://github.com/ElielM10100/OrganizAI.git
 cd finance-app
 ```
 
@@ -87,6 +87,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Contato
 
-Seu Nome - [@seu-twitter](https://twitter.com/seu-twitter) - email@exemplo.com
+NicollasEliel - [@Instagram](https://www.instagram.com/nicollaseliel/) 
 
-Link do Projeto: https://github.com/ElielM10100/OrganizAI.git
+Link do Projeto: [https://github.com/ElielM10100/OrganizAI](https://github.com/ElielM10100/OrganizAI) 
